@@ -24,7 +24,7 @@ import wso2healthcare/fhir;
 public type Patient r4:Patient;
 
 //
-
+//
 
 # A service representing a network-accessible API
 # bound to port `9090`.
