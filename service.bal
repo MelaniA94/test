@@ -21,7 +21,7 @@ import wso2healthcare/fhir;
 # Generic type to wrap all implemented profiles. 
 # Add required profile types here.
 # public type Patient r4:Patient|r4:USCorePatient;
-public type Patient r4:Patient;
+//public type Patient r4:Patient;
 
 
 
