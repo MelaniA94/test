@@ -27,7 +27,7 @@ public type Patient r4:Patient;
 
 # A service representing a network-accessible API
 # bound to port `9090`.
-service / on new fhir:Listener(9090, apiConfig) {
+service / on new fhir:Listener(9090) {
 
     // Search the resource type based on some filter criteria
     isolated resource function get fhir/r4/Patient(r4:FHIRContext fhirContext) returns string {
