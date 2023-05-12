@@ -1,6 +1,6 @@
 import ballerina/http;
 
-configurable string xv= ?;
+configurable meals xv= ?;
 
 public type meals record {|
     string [] meal;
