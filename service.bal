@@ -3,7 +3,6 @@ import ballerina/http;
 configurable meals xv= ?;
 
 public type meals record {|
-    string [] meal;
     string[][] options;
 
 |};
